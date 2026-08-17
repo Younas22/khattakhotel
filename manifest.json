@@ -1,0 +1,42 @@
+{
+  "name": "Khattak Hotel",
+  "short_name": "Khattak Hotel",
+  "description": "Khattak Hotel — Traditional Hospitality, Exceptional Taste. Pakistani, Afghan-inspired and international cuisine at GT Road Kacha Khuh By Pass.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFF9F0",
+  "theme_color": "#D60040",
+  "lang": "en-PK",
+  "dir": "ltr",
+  "categories": ["food", "restaurant", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-72x72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-128x128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144x144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-152x152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-384x384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "WhatsApp Order",
+      "short_name": "Order",
+      "description": "Order from Khattak Hotel on WhatsApp",
+      "url": "https://wa.me/923285370000?text=Hello%20Khattak%20Hotel%2C%20I%20would%20like%20to%20order",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Call Us",
+      "short_name": "Call",
+      "description": "Call Khattak Hotel for orders",
+      "url": "tel:03285370000",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

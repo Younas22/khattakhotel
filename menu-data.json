@@ -1,0 +1,439 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "title": "Appetizers",
+      "icon": "fas fa-utensils",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 1, "name": "Fish Crackers", "urdu_name": "فش کریکرز", "price": "Rs. 380" },
+          { "no": 2, "name": "Chicken Fingers (8 Pcs)", "urdu_name": "فنگرز چکن (8پیس)", "price": "Rs. 1450" },
+          { "no": 3, "name": "Chicken Dhakka", "urdu_name": "دھاکہ، چکن", "price": "Rs. 1375" },
+          { "no": 4, "name": "Chicken BBQ Wings (10 Pcs)", "urdu_name": "چکن باٹ ونگز (10پیس)", "price": "Rs. 850" },
+          { "no": 5, "name": "Chicken Spicy Wings (12 Pcs)", "urdu_name": "چکن اسپائسی ونگز (12پیس)", "price": "Rs. 850" },
+          { "no": 6, "name": "Hummus", "urdu_name": "حمص", "price": "Rs. 650" },
+          { "no": 7, "name": "French Fries", "urdu_name": "فرنچ فرائز", "price": "Rs. 450" },
+          { "no": 8, "name": "Chicken BBQ Shots", "urdu_name": "چکن باٹ شاٹ", "price": "Rs. 850" },
+          { "no": 9, "name": "Chicken Mustard Wingz (10 Pcs)", "urdu_name": "بنی مسٹرڈ ونگز (10پیس)", "price": "Rs. 850" },
+          { "no": 10, "name": "Honey BBQ Wingz (10 Pcs)", "urdu_name": "بنی ونگز (10پیس)", "price": "Rs. 850" }
+        ]}
+      ]
+    },
+    {
+      "id": "soup",
+      "title": "Soup",
+      "icon": "fas fa-bowl-food",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 11, "name": "Special Soup", "urdu_name": "اسپیشل سوپ", "sizes": [{"size":"Full","price":"Rs. 1050"},{"size":"Half","price":"Rs. 620"}] },
+          { "no": 12, "name": "Hot & Sour Soup", "urdu_name": "باٹ اینڈ ساور سوپ", "sizes": [{"size":"Full","price":"Rs. 1150"},{"size":"Half","price":"Rs. 675"}] },
+          { "no": 13, "name": "Chicken Corn Soup", "urdu_name": "چکن کارن سوپ", "sizes": [{"size":"Full","price":"Rs. 1020"},{"size":"Half","price":"Rs. 600"}] },
+          { "no": 14, "name": "Cream of Chicken Soup", "urdu_name": "کریم آف چکن سوپ", "sizes": [{"size":"Full","price":"Rs. 1250"},{"size":"Half","price":"Rs. 725"}] },
+          { "no": 15, "name": "Mexican Jalapeno Soup", "urdu_name": "میکسیکن جالاپینو سوپ", "sizes": [{"size":"Full","price":"Rs. 1250"},{"size":"Half","price":"Rs. 725"}] },
+          { "no": 16, "name": "Cream of Mushroom Soup", "urdu_name": "کریم آف مشروم سوپ", "sizes": [{"size":"Full","price":"Rs. 1250"},{"size":"Half","price":"Rs. 725"}] },
+          { "no": 17, "name": "Chicken Thai Soup", "urdu_name": "چکن تھائی سوپ", "sizes": [{"size":"Full","price":"Rs. 1050"},{"size":"Half","price":"Rs. 625"}] },
+          { "no": 18, "name": "Chicken Vegetable Soup", "urdu_name": "چکن ویجیٹیبل سوپ", "sizes": [{"size":"Full","price":"Rs. 950"},{"size":"Half","price":"Rs. 575"}] },
+          { "no": 19, "name": "Reed John Soup", "urdu_name": "ریڈ سجوان سوپ", "sizes": [{"size":"Full","price":"Rs. 1050"},{"size":"Half","price":"Rs. 620"}] }
+        ]},
+        { "title": "Individual Serving Soup", "items": [
+          { "no": 20, "name": "Nimbo Cream of Pasta Soup", "urdu_name": "نیمبو کریم آف پاسنا سوپ", "price": "Rs. 350" },
+          { "no": 21, "name": "Cream of Chicken Soup (Single)", "urdu_name": "کریم آف چکن سوپ", "price": "Rs. 350" },
+          { "no": 22, "name": "Cream of Mushroom Soup (Single)", "urdu_name": "کریم آف مشروم سوپ", "price": "Rs. 350" },
+          { "no": 23, "name": "Thai Coconut Milk Soup", "urdu_name": "تھائی کوکونٹ ملک سوپ", "price": "Rs. 350" },
+          { "no": 24, "name": "Mexican Jalapeno Soup (Single)", "urdu_name": "میکسیکن جالاپینو سوپ", "price": "Rs. 350" }
+        ]}
+      ]
+    },
+    {
+      "id": "salads",
+      "title": "Salads",
+      "icon": "fas fa-leaf",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 25, "name": "Fresh Green Salad", "urdu_name": "فریش گرین سلاد", "price": "Rs. 100" },
+          { "no": 26, "name": "Cucumber Salad", "urdu_name": "کچومر سلاد", "price": "Rs. 280" },
+          { "no": 27, "name": "Russian Salad", "urdu_name": "رشین سلاد", "price": "Rs. 620" },
+          { "no": 28, "name": "Green Bean Salad", "urdu_name": "ریڈ بین سلاد", "price": "Rs. 500" },
+          { "no": 29, "name": "Bawa'i Salad", "urdu_name": "بوائی سلاد", "price": "Rs. 800" },
+          { "no": 30, "name": "Turkish Salad", "urdu_name": "ترکیش سلاد", "price": "Rs. 470" },
+          { "no": 31, "name": "Chicken Bacon Apple Salad", "urdu_name": "چکن بائن ایپل سلاد", "price": "Rs. 780" },
+          { "no": 32, "name": "BBQ Kiwi Salad", "urdu_name": "بار بی کیو سلاد", "price": "Rs. 780" },
+          { "no": 33, "name": "Special House Combination Salad", "urdu_name": "اسپیشل باؤس کومبینیشن سلاد", "price": "Rs. 800", "description": "رشین، فریش گرین، بیگ مسڑ ساس" },
+          { "no": 34, "name": "Raita", "urdu_name": "رائتہ", "price": "Rs. 160" }
+        ]}
+      ]
+    },
+    {
+      "id": "dessert",
+      "title": "Dessert",
+      "icon": "fas fa-ice-cream",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 35, "name": "Zafrani Kheer", "urdu_name": "زعفرانی کھیر", "price": "Rs. 310" },
+          { "no": 36, "name": "Fruit Trifle", "urdu_name": "فروٹ ٹرائفل", "price": "Rs. 310" },
+          { "no": 37, "name": "Hot Gulab Jamun", "urdu_name": "ہاٹ گلاب جامن", "price": "Rs. 330" },
+          { "no": 38, "name": "Kulfi", "urdu_name": "قلفی", "price": "Rs. 95" },
+          { "no": 39, "name": "Molten Lava", "urdu_name": "مولٹن لاوا", "price": "Rs. 645" },
+          { "no": 40, "name": "Brownie", "urdu_name": "براؤنی", "price": "Rs. 295" },
+          { "no": 41, "name": "Pastry (Flavors)", "urdu_name": "پیسٹری (فلیورز)", "price": "Rs. 295" },
+          { "no": 42, "name": "Plain Ice Cream", "urdu_name": "سادہ آئس کریم", "price": "Rs. 295" }
+        ]}
+      ]
+    },
+    {
+      "id": "rice",
+      "title": "Rice",
+      "icon": "fas fa-bowl-rice",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 88, "name": "Special Rice", "urdu_name": "اسپیشل رائس", "sizes": [{"size":"Half","price":"Rs. 600"},{"size":"Full","price":"Rs. 990"}] },
+          { "no": 89, "name": "Chicken Fried Rice", "urdu_name": "چکن فرائیڈ رائس", "sizes": [{"size":"Half","price":"Rs. 550"},{"size":"Full","price":"Rs. 950"}] },
+          { "no": 90, "name": "Chicken Masala Rice", "urdu_name": "چکن مصالحہ رائس", "sizes": [{"size":"Half","price":"Rs. 550"},{"size":"Full","price":"Rs. 950"}] },
+          { "no": 91, "name": "Egg Fried Rice", "urdu_name": "ایگ فرائیڈ رائس", "sizes": [{"size":"Half","price":"Rs. 550"},{"size":"Full","price":"Rs. 750"}] },
+          { "no": 92, "name": "Vegetable Fried Rice", "urdu_name": "ویجیٹیبل فرائیڈ رائس", "sizes": [{"size":"Half","price":"Rs. 550"},{"size":"Full","price":"Rs. 750"}] },
+          { "no": 93, "name": "Steamed Rice", "urdu_name": "اسٹیمڈ رائس", "sizes": [{"size":"Half","price":"Rs. 499"},{"size":"Full","price":"Rs. 900"}] },
+          { "no": 94, "name": "Chicken Biryani", "urdu_name": "چکن بریانی", "sizes": [{"size":"Half","price":"Rs. 600"},{"size":"Full","price":"Rs. 1050"}] },
+          { "no": 95, "name": "Shrimp Fried Rice", "urdu_name": "شرمپ فرائیڈ رائس", "sizes": [{"size":"Half","price":"Rs. 520"},{"size":"Full","price":"Rs. 900"}] },
+          { "no": 96, "name": "Namkeen Fried Rice", "urdu_name": "نمکین فرائیڈ رائس", "sizes": [{"size":"Half","price":"Rs. 570"},{"size":"Full","price":"Rs. 900"}] },
+          { "no": 97, "name": "Plain Rice (Tahai)", "urdu_name": "تہائی رائس", "sizes": [{"size":"Half","price":"Rs. 475"},{"size":"Full","price":"Rs. 850"}] },
+          { "no": 99, "name": "Chicken Handi Biryani", "urdu_name": "چکن ہنڈی بریانی", "price": "Rs. 1800" },
+          { "no": 100, "name": "Mutton Handi Biryani", "urdu_name": "منٹن ہنڈی بریانی", "price": "Rs. 2600" },
+          { "no": 101, "name": "Shashlik with Rice", "urdu_name": "شاشلک ود رائس", "price": "Rs. 1600" },
+          { "no": 102, "name": "Chicken Afghani Pulao", "urdu_name": "چکن افغانی پلاؤ", "sizes": [{"size":"Half","price":"Rs. 645"},{"size":"Full","price":"Rs. 1100"}] }
+        ]}
+      ]
+    },
+    {
+      "id": "noodles",
+      "title": "Noodles",
+      "icon": "fas fa-bowl-food",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 103, "name": "Special Chowmein", "urdu_name": "اسپیشل چاؤمین", "sizes": [{"size":"Half","price":"Rs. 650"},{"size":"Full","price":"Rs. 1050"}] },
+          { "no": 104, "name": "Chicken Chowmein", "urdu_name": "چکن چاؤمین", "sizes": [{"size":"Half","price":"Rs. 650"},{"size":"Full","price":"Rs. 950"}] },
+          { "no": 105, "name": "Vegetable Chowmein", "urdu_name": "ویجیٹیبل چاؤمین", "sizes": [{"size":"Half","price":"Rs. 525"},{"size":"Full","price":"Rs. 850"}] },
+          { "no": 106, "name": "Steamed Noodles", "urdu_name": "تہائی نوڈلز", "sizes": [{"size":"Half","price":"Rs. 590"},{"size":"Full","price":"Rs. 950"}] }
+        ]}
+      ]
+    },
+    {
+      "id": "pizzas",
+      "title": "Pizzas",
+      "icon": "fas fa-pizza-slice",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 107, "name": "Chicken Tikka Special", "urdu_name": "چکن تکہ اسپیشل", "sizes": [{"size":"Small","price":"Rs. 695"},{"size":"Medium","price":"Rs. 1325"},{"size":"Large","price":"Rs. 1745"}] },
+          { "no": 108, "name": "Haji Tufail Special Pizza", "urdu_name": "حاجی طفیل اسپیشل پیزا", "sizes": [{"size":"Small","price":"Rs. 695"},{"size":"Medium","price":"Rs. 1325"},{"size":"Large","price":"Rs. 1745"}] },
+          { "no": 109, "name": "Chicken Fajita Pizza", "urdu_name": "چکن فجیٹا پیزا", "sizes": [{"size":"Small","price":"Rs. 695"},{"size":"Medium","price":"Rs. 1325"},{"size":"Large","price":"Rs. 1745"}] },
+          { "no": 110, "name": "Cheese Delight Pizza", "urdu_name": "چیز ڈیلائٹ پیزا", "sizes": [{"size":"Small","price":"Rs. 845"},{"size":"Medium","price":"Rs. 1375"},{"size":"Large","price":"Rs. 1895"}] },
+          { "no": 111, "name": "Chicken Nawabi Pizza", "urdu_name": "چکن نوابی پیزا", "sizes": [{"size":"Small","price":"Rs. 845"},{"size":"Medium","price":"Rs. 1375"},{"size":"Large","price":"Rs. 1895"}] },
+          { "no": 112, "name": "Thin Crust Pizza", "urdu_name": "پتلی کرسٹ پیزا", "sizes": [{"size":"Small","price":"Rs. 695"},{"size":"Medium","price":"Rs. 1325"},{"size":"Large","price":"Rs. 1745"}] }
+        ]}
+      ]
+    },
+    {
+      "id": "pasta",
+      "title": "Pasta",
+      "icon": "fas fa-bowl-food",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 132, "name": "Fettuccine Alfredo", "urdu_name": "فیٹوچینو الفریڈو", "price": "Rs. 1050" },
+          { "no": 133, "name": "Chicken Primavera", "urdu_name": "چکن پریماویرا", "price": "Rs. 1050" },
+          { "no": 134, "name": "Chicken Lasagna", "urdu_name": "چکن لازانیا", "price": "Rs. 1050" }
+        ]}
+      ]
+    },
+    {
+      "id": "chinese",
+      "title": "Chinese Food",
+      "icon": "fas fa-utensils",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 113, "name": "Chicken Special Chef", "urdu_name": "شیف اسپیشل چکن", "price": "Rs. 1250" },
+          { "no": 114, "name": "Chicken Manchurian", "urdu_name": "چکن منجورین", "price": "Rs. 1250" },
+          { "no": 115, "name": "Chicken Almeeda", "urdu_name": "چکن المیندا", "price": "Rs. 1425" },
+          { "no": 116, "name": "Chicken Butter Apple Chery", "urdu_name": "چکن بائن ایپل چیری", "price": "Rs. 1450" },
+          { "no": 117, "name": "Chicken Black Pepper", "urdu_name": "چکن بلیک پیپر", "price": "Rs. 1450" },
+          { "no": 118, "name": "Chicken Garlic Sauce", "urdu_name": "چکن گارلک ساس", "price": "Rs. 1450" },
+          { "no": 119, "name": "Chicken Oyster Sauce", "urdu_name": "چکن آئسٹر ساس", "price": "Rs. 1450" },
+          { "no": 120, "name": "Sichuan Chicken", "urdu_name": "سچوان اسنائل چکن", "price": "Rs. 1450" },
+          { "no": 121, "name": "Chicken Cashew Nut", "urdu_name": "چکن کاشونٹ", "price": "Rs. 1450" },
+          { "no": 122, "name": "Chicken Sweet & Sour", "urdu_name": "چکن سویٹ اینڈ ساور", "price": "Rs. 1450" },
+          { "no": 123, "name": "Chicken Mix Vegetable", "urdu_name": "چکن مکس ویجیٹیبل", "price": "Rs. 1450" },
+          { "no": 124, "name": "Chicken Chili Onion", "urdu_name": "چکن جیلی اونین", "price": "Rs. 1450" },
+          { "no": 125, "name": "Chicken Mushroom Garlic", "urdu_name": "چکن مشروم گارلک", "price": "Rs. 1450" },
+          { "no": 126, "name": "Chicken Chili Dry", "urdu_name": "چکن چلی ذرائی", "price": "Rs. 1450" },
+          { "no": 127, "name": "Chicken Drum Sticks (6 Pcs)", "urdu_name": "چکن ڈرم اسٹکس (6پیس)", "price": "Rs. 1450" },
+          { "no": 128, "name": "Kung Pao Chicken", "urdu_name": "کنگ پاؤ چکن", "price": "Rs. 1450" },
+          { "no": 129, "name": "Special Bath Pallet Chicken", "urdu_name": "اسپیشل باٹ پلیٹ چکن", "price": "Rs. 1450" },
+          { "no": 130, "name": "Chicken Mongolian", "urdu_name": "چکن منگولین", "price": "Rs. 1450" },
+          { "no": 131, "name": "Roast Chicken with Asian Sauce", "urdu_name": "روسٹ چکن بات ایشیائی ساس", "price": "Rs. 1450" }
+        ]}
+      ]
+    },
+    {
+      "id": "bbq",
+      "title": "Bar. B.Q Dishes",
+      "icon": "fas fa-fire",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 43, "name": "Turkish Kabab", "urdu_name": "ترکیش کباب", "price": "Rs. 1800" },
+          { "no": 44, "name": "Kalmi Tikka (6 Pcs)", "urdu_name": "کلمی تکہ (6پیس)", "price": "Rs. 1099" },
+          { "no": 45, "name": "Chicken Lebanese Kabab", "urdu_name": "چکن لبنانی کباب", "price": "Rs. 1399" },
+          { "no": 46, "name": "Beef Tikka", "urdu_name": "بیف تکہ", "price": "Rs. 2800" },
+          { "no": 47, "name": "Chicken BBQ Kabab", "urdu_name": "چکن بیزا کباب", "price": "Rs. 1299" },
+          { "no": 48, "name": "Beef Kabab", "urdu_name": "بیف کباب", "price": "Rs. 1390" },
+          { "no": 49, "name": "Paneer Tikka", "urdu_name": "بٹیر تکہ", "price": "Rs. 1520" },
+          { "no": 50, "name": "Malai Kabab", "urdu_name": "مخملی کباب", "price": "Rs. 1380" },
+          { "no": 51, "name": "Mutton Boneless Kabab", "urdu_name": "مٹن بنزائی کباب", "price": "Rs. 1500" },
+          { "no": 52, "name": "Mutton Chapli (6 Pcs)", "urdu_name": "مٹن چانپ (6پیس)", "price": "Rs. 2190" },
+          { "no": 53, "name": "Chicken Tikka Boti", "urdu_name": "چکن تکہ بیس", "price": "Rs. 450" },
+          { "no": 54, "name": "Chicken Tikka Boti (Full)", "urdu_name": "چکن تکہ بوٹی", "price": "Rs. 1080" },
+          { "no": 55, "name": "Chicken Malai Boti", "urdu_name": "چکن ملائی بوٹی", "price": "Rs. 1280" },
+          { "no": 56, "name": "Bihari Tikka (8 Pcs)", "urdu_name": "بہاری تکہ (8پیس)", "price": "Rs. 1000" },
+          { "no": 57, "name": "Chicken Behari Boti", "urdu_name": "چکن بہاری بوٹی", "price": "Rs. 1230" },
+          { "no": 58, "name": "Kasturi Boti", "urdu_name": "کستوری بوٹی", "price": "Rs. 1350" },
+          { "no": 59, "name": "Lebanese Boti", "urdu_name": "لبنانی بوٹی", "price": "Rs. 1350" },
+          { "no": 60, "name": "Fish Tikka", "urdu_name": "فش تکہ", "price": "Rs. 1650" },
+          { "no": 61, "name": "Grilled Fish Demra", "urdu_name": "گرلڈ فش دمرا", "price": "Rs. 1650" }
+        ]}
+      ]
+    },
+    {
+      "id": "sandwich-burgers",
+      "title": "Sandwich & Burgers",
+      "icon": "fas fa-burger",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 62, "name": "Chicken Sandwich", "urdu_name": "چکن سینڈوچ", "price": "Rs. 520" },
+          { "no": 63, "name": "Chicken Cheese Sandwich", "urdu_name": "چکن چیز سینڈوچ", "price": "Rs. 570" },
+          { "no": 64, "name": "Grilled Chicken Sandwich", "urdu_name": "گرلڈ چکن سینڈوچ", "price": "Rs. 570" },
+          { "no": 65, "name": "Classic Club Sandwich", "urdu_name": "دی کلاسک کلب سینڈوچ", "price": "Rs. 550" },
+          { "no": 66, "name": "Grilled Chicken Burger", "urdu_name": "گرلڈ چکن برگر", "price": "Rs. 550" },
+          { "no": 67, "name": "Peri Peri Chicken Burger", "urdu_name": "بار بی کیو چکن برگر", "price": "Rs. 1299" },
+          { "no": 68, "name": "Chicken Mix Roll", "urdu_name": "چکن میکس رول", "price": "Rs. 350" },
+          { "no": 69, "name": "Espania Crispy Chicken Burger", "urdu_name": "اسپانیا کرسپی چکن برگر", "price": "Rs. 550" },
+          { "no": 70, "name": "Zinger Burger", "urdu_name": "زنگر برگر", "price": "Rs. 550" }
+        ]}
+      ]
+    },
+    {
+      "id": "karahi",
+      "title": "Karahi Section",
+      "icon": "fas fa-fire-burner",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 71, "name": "Chicken Jersey Karahi", "urdu_name": "چکن جرسی کڑاہی", "sizes": [{"size":"Full","price":"Rs. 1725"},{"size":"Half","price":"Rs. 960"}] },
+          { "no": 72, "name": "Mutton Chicken Karahi", "urdu_name": "بٹ چکن کڑاہی", "sizes": [{"size":"Full","price":"Rs. 1745"},{"size":"Half","price":"Rs. 970"}] },
+          { "no": 73, "name": "Reed Desi Murgh Karahi", "urdu_name": "ریڈ دیسی مرغ کڑاہی", "sizes": [{"size":"Full","price":"Rs. 3495"},{"size":"Half","price":"Rs. 1900"}] },
+          { "no": 74, "name": "Chicken Karahi", "urdu_name": "چکن کڑاہی", "sizes": [{"size":"Full","price":"Rs. 1725"},{"size":"Half","price":"Rs. 930"}] },
+          { "no": 75, "name": "Chicken White Karahi", "urdu_name": "چکن وائٹ کڑاہی", "sizes": [{"size":"Full","price":"Rs. 1745"},{"size":"Half","price":"Rs. 930"}] },
+          { "no": 76, "name": "Mutton Chicken Karahi (Bat)", "urdu_name": "بٹ مٹن کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 77, "name": "Mutton Karahi", "urdu_name": "مٹن کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 78, "name": "Mutton Peshawari Karahi", "urdu_name": "مٹن پشاوری کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 79, "name": "Mutton Shinwari Karahi", "urdu_name": "مٹن شنواری کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 80, "name": "Mutton Afghani Karahi", "urdu_name": "مٹن افغانی کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 81, "name": "Mutton White Karahi", "urdu_name": "مٹن وائٹ کڑاہی", "sizes": [{"size":"Full","price":"Rs. 4050"},{"size":"Half","price":"Rs. 2330"}] },
+          { "no": 82, "name": "Beef Karahi (Plain)", "urdu_name": "بیف کڑاہی سادہ", "sizes": [{"size":"Full","price":"Rs. 2800"},{"size":"Half","price":"Rs. 1500"}] },
+          { "no": 83, "name": "Beef White Karahi", "urdu_name": "بیف وائٹ کڑاہی", "sizes": [{"size":"Full","price":"Rs. 3600"},{"size":"Half","price":"Rs. 1600"}] },
+          { "no": 84, "name": "Beef Karahi Boneless", "urdu_name": "بیف کڑاہی بون لیس", "sizes": [{"size":"Full","price":"Rs. 2800"},{"size":"Half","price":"Rs. 1500"}] },
+          { "no": 85, "name": "Kabuli Mutton Roast", "urdu_name": "کابلی مٹن روسٹ", "price": "Rs. 4000/kg" }
+        ]}
+      ]
+    },
+    {
+      "id": "turkish",
+      "title": "Turkish Special Food",
+      "icon": "fas fa-drumstick-bite",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 86, "name": "Turkish Special Platter For 8 Persons", "urdu_name": "ترکش اسپیشل پلیٹر فل (8 افراد کے لیے تجویز کردہ)", "price": "Rs. 9350", "description": "چیز پوپی لیس، چکن لبنانی پوپی لیس، چکن شامی پوپی، فش رشین کباب، رومال روٹی، پیکن، بیف اونڈ کباب، 8 پیس چکن راس، اردگان نان، گارلک نان و تفصیل" },
+          { "no": 87, "name": "Turkish Special Platter For 6 Persons", "urdu_name": "ترکش اسپیشل پلیٹر باف (6 افراد کے لیے تجویز کردہ)", "price": "Rs. 4975", "description": "چکن ملائی بوٹی، چکن گرین بون پوپی لیس، 6 پیس بون پوپی لیس، 2 پیس چکن جانپ، مٹن راس، رومال روٹی، اورنگی نان، گارلک نان و سبزیاں" }
+        ]}
+      ]
+    },
+    {
+      "id": "desi-special",
+      "title": "Desi Special Cuisine",
+      "icon": "fas fa-drumstick-bite",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 135, "name": "Dum Pukht Saleem Bakra", "urdu_name": "دم پخت سالم بکرا", "price": "Rs. 4000/kg" },
+          { "no": 136, "name": "Mutton Khinda Sajji (with Rice)", "urdu_name": "مٹن کھینڈا سجی (وید رائس)", "price": "Rs. 4300/kg" },
+          { "no": 137, "name": "Chicken Khinda Sajji (with Rice)", "urdu_name": "چکن کھینڈا سجی (وید رائس)", "sizes": [{"size":"Full","price":"Rs. 2195"},{"size":"Half","price":"Rs. 1120"}] }
+        ]}
+      ]
+    },
+    {
+      "id": "seafood",
+      "title": "Seafood Specialities",
+      "icon": "fas fa-fish",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 138, "name": "Special Braised Fish Fillet (2 Pcs)", "urdu_name": "اسپیشل بریزڈ فرائیڈ فش فلیٹ جبس (2پیس)", "price": "Rs. 1795" },
+          { "no": 139, "name": "Fish Tikka", "urdu_name": "فش تکہ", "price": "Rs. 1725" },
+          { "no": 140, "name": "Barbary Fish Boti Platter (2 Pcs)", "urdu_name": "باربری فش بوٹی پلیٹ (2پیس)", "price": "Rs. 1575" },
+          { "no": 141, "name": "Bohl Fish Barbary Kiwi Grill", "urdu_name": "بول فش باربری کیو گرل", "price": "Rs. 2895" },
+          { "no": 142, "name": "Fish Chili Dry", "urdu_name": "فش چلی ذرائی", "price": "Rs. 1445" },
+          { "no": 143, "name": "Hunger Fish Dhakka (Fish, 8 Pcs)", "urdu_name": "ہنگر فش / ذھاکہ، فش (8پیس)", "price": "Rs. 1745" },
+          { "no": 144, "name": "Fillet of Sole", "urdu_name": "فلٹ آف سول", "price": "Rs. 1745" },
+          { "no": 145, "name": "Fillet of Red Snapper", "urdu_name": "فلٹ آف ریڈ اسنیپر", "price": "Rs. 1895" }
+        ]}
+      ]
+    },
+    {
+      "id": "steakhouse",
+      "title": "Steakhouse Specialities",
+      "icon": "fas fa-drumstick-bite",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 146, "name": "Mushroom Steak", "urdu_name": "مشروم اسٹیک", "price": "Rs. 1500" },
+          { "no": 147, "name": "Pepper Steak", "urdu_name": "بیپر اسٹیک", "price": "Rs. 1500" },
+          { "no": 148, "name": "Barbary Kiwi Steak", "urdu_name": "باربری کیو اسٹیک", "price": "Rs. 1500" },
+          { "no": 149, "name": "Mexican Steak", "urdu_name": "میکسیکن اسٹیک", "price": "Rs. 1500" },
+          { "no": 150, "name": "Potato Steak", "urdu_name": "اطالوی اسٹیک", "price": "Rs. 1500" }
+        ]}
+      ]
+    },
+    {
+      "id": "chefs-recommendations",
+      "title": "Chef's Recommendations",
+      "icon": "fas fa-hat-chef",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 151, "name": "Stuffed Chicken Breast", "urdu_name": "اسٹفڈ چکن بریسٹ", "price": "Rs. 1695", "description": "پلین اسپیشل ساس / چیلی ساس" },
+          { "no": 152, "name": "Fish Amali Sauce", "urdu_name": "فش املی ساس", "price": "Rs. 1650" },
+          { "no": 153, "name": "Saucy Chicken Peanut Butter Sauce", "urdu_name": "سانے چکن پینٹ بنر ساس", "price": "Rs. 1450" },
+          { "no": 154, "name": "Grilled Chicken Jalapeno Sauce", "urdu_name": "گرلڈ چکن جلاپینو ساس", "price": "Rs. 1645" },
+          { "no": 155, "name": "Lemon Crusted Chicken", "urdu_name": "لیمن کرسٹڈ چکن", "price": "Rs. 1525" }
+        ]}
+      ]
+    },
+    {
+      "id": "pakistani-specialities",
+      "title": "Pakistani Specialities",
+      "icon": "fas fa-drumstick-bite",
+      "popular": true,
+      "sections": [
+        { "items": [
+          { "no": 156, "name": "Chicken Handi Bone-Less", "urdu_name": "چکن ہانڈی بون لیس", "price": "Rs. 1580" },
+          { "no": 157, "name": "Chicken Berry Chili", "urdu_name": "چکن بیری مرچ", "price": "Rs. 1490" },
+          { "no": 158, "name": "Chicken Achari Handi", "urdu_name": "چکن اچاری ہانڈی", "price": "Rs. 1590" },
+          { "no": 159, "name": "Chicken Shah Jahani", "urdu_name": "چکن شاہ جہانی", "price": "Rs. 1400" },
+          { "no": 160, "name": "Chicken Falafi", "urdu_name": "چکن فلافی", "price": "Rs. 1530" },
+          { "no": 161, "name": "Chicken Nawabi", "urdu_name": "چکن نوابی", "price": "Rs. 1500" },
+          { "no": 162, "name": "Chicken Irani Handi", "urdu_name": "چکن ایرانی ہانڈی", "price": "Rs. 1590" },
+          { "no": 163, "name": "Chicken Bertha", "urdu_name": "چکن برتھا", "price": "Rs. 1290" },
+          { "no": 164, "name": "Chicken Garlic Handi", "urdu_name": "چکن گارلک ہانڈی", "price": "Rs. 1480" },
+          { "no": 165, "name": "Mutton Handi", "urdu_name": "مٹن ہانڈی", "price": "Rs. 2600" },
+          { "no": 166, "name": "Mutton Berry Chili", "urdu_name": "مٹن بیری مرچ", "price": "Rs. 2600" },
+          { "no": 167, "name": "Mutton Achari Handi", "urdu_name": "مٹن اچاری ہانڈی", "price": "Rs. 2600" },
+          { "no": 168, "name": "Mutton Madrasi Handi", "urdu_name": "مٹن مدراسی ہانڈی", "price": "Rs. 2895" },
+          { "no": 169, "name": "Mix Vegetables", "urdu_name": "مکس سبزی", "price": "Rs. 490" },
+          { "no": 170, "name": "Dal (Special)", "urdu_name": "دال (اسپیشل)", "price": "Rs. 550" },
+          { "no": 171, "name": "Rajasthani Chicken Bone-Less", "urdu_name": "راجستھانی چکن بون لیس", "price": "Rs. 1390" },
+          { "no": 172, "name": "Paneer Kebab (8 Pcs)", "urdu_name": "پنیر کباب (8پیس)", "price": "Rs. 2775" },
+          { "no": 173, "name": "Beharia Handi", "urdu_name": "بیہاری ہانڈی", "price": "Rs. 1380" },
+          { "no": 174, "name": "Malai Chicken", "urdu_name": "ملائی چکن", "price": "Rs. 1380" },
+          { "no": 175, "name": "Chicken Jalfrezi", "urdu_name": "چکن جل فریزی", "price": "Rs. 1380" },
+          { "no": 176, "name": "Arabic Chicken", "urdu_name": "عربی چکن", "price": "Rs. 1380" },
+          { "no": 177, "name": "Turkish Kabab Masala", "urdu_name": "ترکیش کباب مصالحہ", "price": "Rs. 1380" },
+          { "no": 178, "name": "Chicken Berry Mirch", "urdu_name": "چکن بیری مرچ", "price": "Rs. 1380" }
+        ]}
+      ]
+    },
+    {
+      "id": "tandoor",
+      "title": "From Our Tandoor",
+      "icon": "fas fa-fire",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 179, "name": "Kandahari Naan", "urdu_name": "قندھاری نان", "price": "Rs. 150" },
+          { "no": 180, "name": "Kashmiri Naan", "urdu_name": "کشمیری نان", "price": "Rs. 470" },
+          { "no": 181, "name": "Roghni Naan", "urdu_name": "روغنی نان", "price": "Rs. 110" },
+          { "no": 182, "name": "Garlic Naan", "urdu_name": "گارلک نان", "price": "Rs. 150" },
+          { "no": 183, "name": "Ginger Naan", "urdu_name": "جنجر نان", "price": "Rs. 150" },
+          { "no": 184, "name": "Plain Naan", "urdu_name": "سادہ نان", "price": "Rs. 100" },
+          { "no": 185, "name": "Keema Naan", "urdu_name": "قیمہ نان", "price": "Rs. 540" },
+          { "no": 186, "name": "Cheese Naan", "urdu_name": "چیز نان", "price": "Rs. 580" },
+          { "no": 187, "name": "Parantha", "urdu_name": "پراٹھا", "price": "Rs. 140" },
+          { "no": 188, "name": "Roti (Per Bread)", "urdu_name": "روٹی (پر بریڈ)", "price": "Rs. 130" },
+          { "no": 189, "name": "Kalonji Naan", "urdu_name": "کلونجی نان", "price": "Rs. 150" }
+        ]}
+      ]
+    },
+    {
+      "id": "beverages",
+      "title": "Beverages",
+      "icon": "fas fa-glass-water",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 190, "name": "Soft Drink (Regular)", "urdu_name": "سافٹ ڈرنک (ریگولر)", "price": "Rs. 110" },
+          { "no": 191, "name": "Soft Drink (Tin)", "urdu_name": "سافٹ ڈرنک (ٹن)", "price": "Rs. 160" },
+          { "no": 192, "name": "Fresh Lime", "urdu_name": "فریش لائم", "price": "Rs. 150" },
+          { "no": 193, "name": "Pina Colada", "urdu_name": "پینا کولاڈا", "price": "Rs. 430" },
+          { "no": 194, "name": "Mint Margarita", "urdu_name": "مٹن مارگرینا", "price": "Rs. 280" },
+          { "no": 195, "name": "Lemon Aid", "urdu_name": "لیمن ایڈ", "price": "Rs. 280" },
+          { "no": 196, "name": "Cold Coffee", "urdu_name": "کولڈ کافی", "price": "Rs. 470" },
+          { "no": 197, "name": "Hot Chocolate Coffee", "urdu_name": "باٹ چاکلیٹ کافی", "price": "Rs. 370" },
+          { "no": 198, "name": "Cappuccino", "urdu_name": "کیپچینو", "price": "Rs. 430" },
+          { "no": 199, "name": "Special Chai", "urdu_name": "اسپیشل چائے", "price": "Rs. 100" },
+          { "no": 200, "name": "Milk Shake", "urdu_name": "ملک شیک", "price": "Rs. 310" },
+          { "no": 201, "name": "Mineral Water (Large)", "urdu_name": "منرل واٹر (لارج)", "price": "Rs. 120" },
+          { "no": 202, "name": "Mineral Water (Small)", "urdu_name": "منرل واٹر (سمال)", "price": "Rs. 80" }
+        ]}
+      ]
+    },
+    {
+      "id": "continental",
+      "title": "Continental Food",
+      "icon": "fas fa-utensils",
+      "popular": false,
+      "sections": [
+        { "items": [
+          { "no": 203, "name": "Chicken Cordon Bleu", "urdu_name": "چکن کارڈن بلو", "price": "Rs. 1695", "description": "2 پیس چکن بارڈن بلو، مکسڈ ویجیٹیبل، گارلک رائس" },
+          { "no": 204, "name": "Chicken Bologna", "urdu_name": "بولو چکن", "price": "Rs. 1695", "description": "2 پیس چکن فرائیڈ، مکسڈ ویجیٹیبل، گارلک رائس" },
+          { "no": 205, "name": "Mozzarella Stuffed Chicken", "urdu_name": "موزریلا اسٹفڈ چکن", "price": "Rs. 1695", "description": "2 پیس اسٹفڈ چکن ساس، مکسڈ ویجیٹیبل، گارلک رائس" },
+          { "no": 206, "name": "Marinated Stuffed Chicken", "urdu_name": "میرینیٹڈ اسٹفڈ چکن", "price": "Rs. 1695", "description": "2 پیس گرلڈ چکن ساس، مکسڈ ویجیٹیبل، مشروم" },
+          { "no": 207, "name": "Grilled Chicken Moroccan Sauce", "urdu_name": "گرلڈ چکن مراکشی ساس", "price": "Rs. 1695", "description": "2 پیس گرلڈ چکن ساس، مکسڈ ویجیٹیبل، گارلک رائس" },
+          { "no": 208, "name": "Grilled Chicken Tarragon Sauce", "urdu_name": "گرلڈ چکن ٹیراگون ساس", "price": "Rs. 1695", "description": "2 پیس گرلڈ چکن ساس، مکسڈ ویجیٹیبل، گارلک رائس" },
+          { "no": 209, "name": "Mozzarella Cheese Sticks (4 Pcs)", "urdu_name": "موزریلا چیز اسٹکس", "price": "Rs. 845", "description": "4 پیس چیز اسٹکس، مشروم ساس" },
+          { "no": 210, "name": "Sizzling Fried Chicken (6 Pcs)", "urdu_name": "سیزلنگ فرائیڈ چکن", "price": "Rs. 1225", "description": "6 پیس چکن، مشروم ساس" },
+          { "no": 211, "name": "Grilled Fish Jalapeno Sauce (3 Pcs)", "urdu_name": "گرلڈ فش جالاپینو ساس", "price": "Rs. 1875", "description": "3 پیس گرلڈ فش، گارلک رائس، ساس" },
+          { "no": 212, "name": "Thai Sticky Rice", "urdu_name": "تھائی اسٹکی رائس", "price": "Rs. 1895", "description": "سام روز ساس" },
+          { "no": 213, "name": "Buffalo Wings", "urdu_name": "بیفلو ونگز", "price": "Rs. 925" }
+        ]}
+      ]
+    }
+  ],
+  "chefsPicks": [71, 86, 43, 151, 55, 108, 205, 94],
+  "serviceCharge": "4% Service Charges Applicable on Dining Services",
+  "menuGallery": [
+    { "file": "menu/khattak-menu-front.webp", "label": "Menu Cover" },
+    { "file": "menu/khattak-menu-01.webp", "label": "Rice, Noodles, Pizzas & Pasta" },
+    { "file": "menu/khattak-menu-02.webp", "label": "Appetizers, Soup, Salads & Dessert" },
+    { "file": "menu/khattak-menu-03.webp", "label": "From Our Tandoor, Beverages & Continental" },
+    { "file": "menu/khattak-menu-04.webp", "label": "Desi, Seafood, Steakhouse & Pakistani" },
+    { "file": "menu/khattak-menu-05.webp", "label": "BBQ, Sandwiches, Karahi & Turkish" },
+    { "file": "menu/khattak-menu-back.webp", "label": "Banquet & Contact" }
+  ]
+}

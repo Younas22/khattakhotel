@@ -1,0 +1,16 @@
+# Robots.txt for Khattak Hotel
+# https://khattakhotel.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://khattakhotel.com/sitemap.xml
+
+Disallow: /api/
+Disallow: /appdata/
+Disallow: /icons/
+
+Allow: /manifest.json
+Allow: /service-worker.js
+
+Crawl-delay: 1
