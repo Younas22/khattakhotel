@@ -103,21 +103,24 @@ function renderCategory($cat) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khattak Hotel | Restaurant in Kacha Khuh</title>
+    <title>Khattak Hotel Kacha Khuh | Best Restaurant in Khanewal</title>
 
     <!-- Primary SEO Meta Tags -->
-    <meta name="description" content="Visit Khattak Hotel at GT Road Kacha Khuh By Pass for delicious Pakistani, Afghan-inspired and international cuisine — Karahi, BBQ, Chinese, Continental, Tandoor and more.">
-    <meta name="keywords" content="Khattak Hotel, Khattak Hotel Kacha Khuh, restaurant Kacha Khuh, karahi Kacha Khuh, BBQ Kacha Khuh, Pakistani food Kacha Khuh, Afghan food Kacha Khuh, hotel restaurant GT Road, 03285370000">
+    <meta name="description" content="Visit Khattak Hotel in Kacha Khuh, Khanewal for Pakistani, Afghan-inspired, BBQ, Karahi, Biryani, Chinese, Continental and more. View our menu or call now.">
+    <meta name="keywords" content="Khattak Hotel, Khattak Hotel Kacha Khuh, restaurant in Kacha Khuh, best restaurant in Kacha Khuh, restaurant in Khanewal, Pakistani food in Kacha Khuh, BBQ in Kacha Khuh, Karahi in Kacha Khuh, family restaurant in Kacha Khuh, food in Kacha Khuh, Chinese food in Kacha Khuh, seafood in Kacha Khuh, steak in Kacha Khuh, pizza in Kacha Khuh, biryani in Kacha Khuh, Khattak Hotel Khanewal, 0328-5370000">
     <meta name="author" content="Khattak Hotel">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
+    <meta name="geo.region" content="PK-PB">
+    <meta name="geo.placename" content="Kacha Khuh, Khanewal, Punjab, Pakistan">
+    <meta name="geo.position" content="29.8333;71.3333">
     <link rel="canonical" href="https://khattakhotel.com/">
 
     <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:type" content="restaurant">
     <meta property="og:site_name" content="Khattak Hotel">
-    <meta property="og:title" content="Khattak Hotel | Restaurant in Kacha Khuh">
-    <meta property="og:description" content="Traditional hospitality, exceptional taste. Visit Khattak Hotel at GT Road Kacha Khuh By Pass — Karahi, BBQ, Chinese, Continental, Tandoor and more.">
+    <meta property="og:title" content="Khattak Hotel Kacha Khuh | Best Restaurant in Khanewal">
+    <meta property="og:description" content="Khattak Hotel in Kacha Khuh, Khanewal serves Pakistani, Afghan-inspired, BBQ, Karahi, Biryani, Chinese, Continental, seafood, steak, pizza and more. View the menu or call now.">
     <meta property="og:image" content="https://khattakhotel.com/icons/khattak-hotel-logo.png">
     <meta property="og:image:width" content="1254">
     <meta property="og:image:height" content="1254">
@@ -126,8 +129,8 @@ function renderCategory($cat) {
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Khattak Hotel | Restaurant in Kacha Khuh">
-    <meta name="twitter:description" content="Traditional hospitality, exceptional taste. Visit Khattak Hotel at GT Road Kacha Khuh By Pass.">
+    <meta name="twitter:title" content="Khattak Hotel Kacha Khuh | Best Restaurant in Khanewal">
+    <meta name="twitter:description" content="Khattak Hotel in Kacha Khuh, Khanewal serves Pakistani, Afghan-inspired, BBQ, Karahi, Biryani, Chinese, Continental, seafood, steak, pizza and more.">
     <meta name="twitter:image" content="https://khattakhotel.com/icons/khattak-hotel-logo.png">
 
     <!-- Contact Information -->
@@ -176,39 +179,55 @@ function renderCategory($cat) {
     <!-- Schema.org Structured Data - Restaurant -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": "Khattak Hotel",
-        "alternateName": "Haji Tufail Khattak Hotel",
-        "description": "Khattak Hotel is a Pakistani and Afghan-inspired restaurant at GT Road Kacha Khuh By Pass, serving Karahi, BBQ, Chinese, Continental and Tandoor dishes with dine-in and takeaway.",
-        "url": "https://khattakhotel.com",
-        "logo": "https://khattakhotel.com/icons/khattak-hotel-logo.png",
-        "image": ["https://khattakhotel.com/icons/khattak-hotel-logo.png"],
-        "telephone": "+923285370000",
-        "priceRange": "PKR",
-        "servesCuisine": ["Pakistani", "Afghan", "Chinese", "Continental", "BBQ"],
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "GT Road Kacha Khuh By Pass, Near Adda Muhsin Wal, 135/15-L Phatak",
-            "addressLocality": "Kacha Khuh",
-            "addressRegion": "Punjab",
-            "addressCountry": "PK"
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Khattak Hotel",
+      "alternateName": "Haji Tufail Khattak Hotel",
+      "description": "Khattak Hotel is a restaurant in Kacha Khuh, Khanewal serving Pakistani, Afghan-inspired, BBQ, Karahi, Biryani, Dum Pukht, Chinese, Continental, seafood, steak, pizza, burgers and tandoor dishes for families, groups and travelers.",
+      "url": "https://khattakhotel.com/",
+      "logo": "https://khattakhotel.com/icons/khattak-hotel-logo.png",
+      "image": [
+        "https://khattakhotel.com/icons/khattak-hotel-logo.png",
+        "https://khattakhotel.com/gallery/hotel-front.webp"
+      ],
+      "telephone": "0328-5370000",
+      "priceRange": "PKR",
+      "servesCuisine": [
+        "Pakistani",
+        "Afghan-inspired",
+        "BBQ",
+        "Karahi",
+        "Chinese",
+        "Continental",
+        "Turkish",
+        "Seafood",
+        "Steak",
+        "Pizza",
+        "Burgers"
+      ],
+      "menu": "https://khattakhotel.com/#menu",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "GT Road Kacha Khuh By Pass, Near Adda Muhsin Wal, 135/15-L Phatak",
+        "addressLocality": "Kacha Khuh",
+        "addressRegion": "Punjab",
+        "addressCountry": "PK"
+      },
+      "areaServed": "Kacha Khuh, Khanewal, Punjab, Pakistan",
+      "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wa.me/923285370000?text=Hello%20Khattak%20Hotel%2C%20I%20would%20like%20to%20order",
+          "actionPlatform": [
+            "https://schema.org/DesktopWebPlatform",
+            "https://schema.org/MobileWebPlatform"
+          ]
         },
-        "potentialAction": {
-            "@type": "OrderAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://wa.me/923285370000?text=Hello%20Khattak%20Hotel%2C%20I%20would%20like%20to%20order",
-                "actionPlatform": [
-                    "https://schema.org/DesktopWebPlatform",
-                    "https://schema.org/MobileWebPlatform"
-                ]
-            },
-            "deliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
-        }
+        "deliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+      }
     }
     </script>
-    <!-- Note: opening hours, geo-coordinates and social profiles are intentionally omitted — not confirmed by the business yet. Add them here once available. -->
 
     <!-- PWA Styles -->
     <link rel="stylesheet" href="pwa-styles.css">
@@ -371,10 +390,10 @@ function renderCategory($cat) {
         <div class="max-w-7xl mx-auto px-4 py-2.5 flex items-center justify-between gap-3">
 
             <!-- Logo + Brand -->
-            <a href="#" class="flex items-center gap-2.5 flex-shrink-0">
+            <a href="#" class="flex items-center gap-2.5 flex-shrink-0" aria-label="Khattak Hotel home">
                 <img src="icons/khattak-hotel-logo.png" alt="Khattak Hotel Logo" class="h-14 w-14 object-contain">
                 <div class="hidden sm:block leading-none">
-                    <h1 class="text-lg md:text-xl font-black leading-none text-[#241C18]">Khattak <span class="text-[#D60040]">Hotel</span></h1>
+                    <div class="text-lg md:text-xl font-black leading-none text-[#241C18]">Khattak <span class="text-[#D60040]">Hotel</span></div>
                     <p class="text-[10px] text-[#66594D] font-semibold tracking-wide mt-0.5">Traditional Hospitality. Exceptional Taste.</p>
                 </div>
             </a>
@@ -411,8 +430,8 @@ function renderCategory($cat) {
                 <!-- Left: Text Content -->
                 <div class="flex-1 text-center lg:text-left">
                     <p class="text-[#9F0030] font-bold text-xs md:text-sm uppercase tracking-[0.2em] mb-4">Kacha Khuh · GT Road</p>
-                    <h1 class="font-black leading-tight text-4xl md:text-6xl text-[#241C18] mb-4">
-                        Khattak <span class="text-[#D60040]">Hotel</span>
+                    <h1 class="font-black leading-tight text-2xl md:text-4xl text-[#241C18] mb-4">
+                        Khattak <span class="text-[#D60040]">Hotel</span> – Best Restaurant in Kacha Khuh, Khanewal
                     </h1>
 
                     <!-- Google Rating -->
@@ -427,7 +446,7 @@ function renderCategory($cat) {
                     <div class="pattern-divider w-32 mx-auto lg:mx-0 mb-5"></div>
                     <p class="text-lg md:text-2xl font-bold text-[#241C18] mb-3">Traditional Hospitality. Exceptional Taste.</p>
                     <p class="text-[#66594D] text-sm md:text-base max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                        Experience authentic Pakistani and Afghan-inspired cuisine in the heart of Kacha Khuh.
+                        Khattak Hotel Kacha Khuh serves Pakistani, Afghan-inspired, BBQ, Karahi, Biryani, dum pukht, seafood, steaks, Chinese, Continental, pizza, burgers and tandoor favorites for families, groups and travelers on GT Road.
                     </p>
 
                     <!-- CTA Buttons -->
@@ -484,17 +503,13 @@ function renderCategory($cat) {
     <section id="about-us" class="py-14 md:py-20 px-4">
         <div class="max-w-3xl mx-auto text-center">
             <p class="text-[#D60040] font-bold text-xs uppercase tracking-[0.2em] mb-2">Our Story</p>
-            <h2 class="text-2xl md:text-3xl font-black text-[#241C18] mb-4">Welcome to Khattak Hotel</h2>
+            <h2 class="text-2xl md:text-3xl font-black text-[#241C18] mb-4">Welcome to Khattak Hotel in Kacha Khuh</h2>
             <div class="pattern-divider w-20 mx-auto mb-6"></div>
             <p class="text-[#66594D] text-sm md:text-base leading-relaxed mb-4">
-                Rooted in Pashtoon hospitality, Khattak Hotel brings traditional flavors and a warm, family-friendly
-                dining experience to GT Road Kacha Khuh By Pass. From hearty Karahi and BBQ to Chinese, Continental
-                and fresh-from-the-tandoor breads, every dish is prepared with care for guests dining in, taking
-                away, or ordering by phone.
+                Rooted in Pashtoon hospitality, Khattak Hotel brings traditional Pakistani and Afghan-inspired flavors to GT Road Kacha Khuh By Pass. From hearty Karahi and BBQ to Chinese, Continental, Seafood, Steak, Pizza, Burgers and fresh-from-the-tandoor specialties, every dish is prepared with care for families, groups and travelers visiting Kacha Khuh.
             </p>
             <p class="text-[#66594D] text-sm md:text-base leading-relaxed">
-                Conveniently located and easy to find, Khattak Hotel is a comfortable stop for families, groups and
-                travelers passing through Kacha Khuh.
+                Conveniently located and easy to find, Khattak Hotel offers a warm, family-friendly dining experience for guests looking for authentic food in Kacha Khuh and a comfortable stop on the road through Khanewal.
             </p>
         </div>
     </section>
@@ -545,7 +560,7 @@ function renderCategory($cat) {
 
             <div class="text-center mb-6">
                 <p class="text-[#C7B78F] font-bold text-xs uppercase tracking-[0.2em] mb-2">Full Menu</p>
-                <h2 class="text-3xl md:text-4xl font-black text-white">Explore Our <span class="text-[#D60040]">Menu</span></h2>
+                <h2 class="text-3xl md:text-4xl font-black text-white">Khattak Hotel Menu – Pakistani, BBQ, Karahi &amp; More</h2>
             </div>
 
             <!-- Search -->
@@ -842,7 +857,41 @@ function renderCategory($cat) {
     </section>
 
     <!-- ═══════════════════════════════════════ -->
-    <!-- 14. FOOTER                             -->
+    <!-- 14. FAQ                                -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="py-14 px-4 bg-[#F4EFE6]/40">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-8">
+                <p class="text-[#D60040] font-bold text-xs uppercase tracking-[0.2em] mb-2">FAQ</p>
+                <h2 class="text-2xl md:text-3xl font-black text-[#241C18]">Frequently Asked Questions</h2>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-white pattern-frame rounded-2xl p-5">
+                    <h3 class="font-bold text-[#241C18] text-lg mb-2">Where is Khattak Hotel located?</h3>
+                    <p class="text-[#66594D] text-sm leading-relaxed">Khattak Hotel is located on GT Road Kacha Khuh Bypass, near Adda Muhsin Wal, 135/15-L Phatak.</p>
+                </div>
+                <div class="bg-white pattern-frame rounded-2xl p-5">
+                    <h3 class="font-bold text-[#241C18] text-lg mb-2">What food does Khattak Hotel serve?</h3>
+                    <p class="text-[#66594D] text-sm leading-relaxed">Khattak Hotel serves Pakistani, Afghan-inspired, BBQ, Karahi, Chinese, Continental, Turkish, seafood, steak, pizza, burgers, tandoor items and more.</p>
+                </div>
+                <div class="bg-white pattern-frame rounded-2xl p-5">
+                    <h3 class="font-bold text-[#241C18] text-lg mb-2">Does Khattak Hotel serve Karahi?</h3>
+                    <p class="text-[#66594D] text-sm leading-relaxed">Yes. The menu includes Chicken, Mutton, Beef, Peshawari, Shinwari, Afghani and White Karahi varieties.</p>
+                </div>
+                <div class="bg-white pattern-frame rounded-2xl p-5">
+                    <h3 class="font-bold text-[#241C18] text-lg mb-2">Does Khattak Hotel offer family dining?</h3>
+                    <p class="text-[#66594D] text-sm leading-relaxed">Yes, the restaurant provides a family-friendly dining environment and group dining options.</p>
+                </div>
+                <div class="bg-white pattern-frame rounded-2xl p-5">
+                    <h3 class="font-bold text-[#241C18] text-lg mb-2">How can I contact Khattak Hotel?</h3>
+                    <p class="text-[#66594D] text-sm leading-relaxed">Customers can call 0328-5370000 or contact the hotel through WhatsApp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 15. FOOTER                             -->
     <!-- ═══════════════════════════════════════ -->
     <footer class="bg-[#241C18] border-t-2 border-[#D60040] pt-12 pb-4 px-4">
         <div class="max-w-7xl mx-auto">
